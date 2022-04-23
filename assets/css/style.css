@@ -755,6 +755,109 @@ header a:hover {
      .formTitle{
          font-size: 20px;
      }
+/*-----------ANIMACIONES, TRANSFORMACIONES, TRANSICIONES MOBILE---------*/
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+.form1:focus{
+    transform: scale(1.1);
+}
+.form2:focus{
+    transform: scale(1.1);
+}
+.enviardatos:hover{
+    transform: scale(1.1);
+}
+.btn-whatsapp:hover{
+    transform: scale(1.1);
+}
+.carta__boton:hover{
+    transform: scale(1.1);
+}
+
+.logo{
+    animation-name: logoanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+}
+
+@keyframes logoanim {
+    0%{
+        transform: 25px;
+    }
+    100%{
+        transform: 25px;
+       background-image: linear-gradient(to left, rgba(247, 76, 76, 0.650), rgb(247, 76, 76, 0.650));
+    }
+}
+.tarjeta:hover{
+    transform: translate(0px,10px)
+ }
+.carta:hover{
+   transform: translate(0px,15px)
+}
+
+.destacado:hover{
+    transform: translate(0px,15px)
+ }
+ .destacado2:hover{
+    transform: translate(0px,15px)
+ }
+}
+
+/*-----------ANIMACIONES, TRANSFORMACIONES, TRANSICIONES---------*/
+
+nav ul li:hover{
+transform: scale(1.1);
+}
+
+.form1:focus{
+transform: scale(1.1);
+}
+.form2:focus{
+transform: scale(1.1);
+}
+.enviardatos:hover{
+transform: scale(1.1);
+}
+.btn-whatsapp:hover{
+transform: scale(1.1);
+}
+.carta__boton:hover{
+transform: scale(1.1);
+}
+
+.logo{
+animation-name: logoanim;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+border-radius: 30px;
+}
+
+@keyframes logoanim {
+0%{
+    transform: 25px;
+}
+100%{
+    transform: 25px;
+   background-image: linear-gradient(to left, rgba(247, 76, 76, 0.650), rgb(247, 76, 76, 0.650));
+}
+
+}
+.tarjeta:hover{
+transform: translate(10px,0px)
+}
+.carta:hover{
+transform: translate(0px,15px)
+}
+
+.destacado:hover{
+transform: translate(0px,15px)
+}
+.destacado2:hover{
+transform: translate(0px,15px)
 }
  
 
