@@ -1,3 +1,4 @@
+/*-----------------------------------------CSS-------------------------*
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -32,7 +33,7 @@ ul{
 }
 /*HASTA ACA ESTILOS GENERALES*/
 
-
+/*
 .fabricacion__2{
     margin:auto;
     padding: 10px;
@@ -125,7 +126,7 @@ header a:hover {
 
 
 
-
+/*
 #fabricacion{
     margin: 50px;
     display: flex;
@@ -144,7 +145,7 @@ header a:hover {
 
 /*ACA EMPIEZAN LAS TARJETAS*/
 
-
+/*
 #algunos-productos{
     background-color: rgb(30,30,30);
     color: white;
@@ -206,7 +207,7 @@ header a:hover {
 }
 
 /*HASTA ACA LAS TARJETAS*/
-
+/*
 #medios-de-pago .contenedor{
     text-align: center;
     padding: 150px 10px;
@@ -237,13 +238,13 @@ header a:hover {
 }
 
 /*COMINEZO DEL FOOTER*/
-
+/*
 .pie{
     margin-top: auto;
     background-color: black;
     color: white;
     width: 100%;
-    height: 60px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -258,7 +259,7 @@ header a:hover {
     height: 36px;
 }
 
- /*CONTACTOS*/
+ /*CONTACTOS*//*
 #botonwts{
      display: flex;
      justify-content:flex-end;
@@ -320,7 +321,7 @@ header a:hover {
 }
 
 /*PRODUCTOS*/
-
+/*
 .carta {
     width: 270px;
     height: 400px;
@@ -374,7 +375,7 @@ header a:hover {
 }
 
 /* DESTACADOS*/
-
+/*
 .destacado {
     width: 450px;
     height: 400px;
@@ -439,7 +440,7 @@ header a:hover {
 }
 
 /*NOSOTROS*/
-
+/*
 #historia{
     display: flex;
     justify-content: center;
@@ -463,7 +464,7 @@ header a:hover {
 }
 
 /* grillas */
-
+/*
 .contenedorPadre{
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -530,7 +531,7 @@ header a:hover {
     
 }
  /* **************** vista mobile ************/
-
+/*
  @media (max-width:412px){
     .contenedorPadre{
         grid-template-columns: repeat(2,1fr);
@@ -755,7 +756,7 @@ header a:hover {
      .formTitle{
          font-size: 20px;
      }
-/*-----------ANIMACIONES, TRANSFORMACIONES, TRANSICIONES MOBILE---------*/
+/*-----------ANIMACIONES, TRANSFORMACIONES, TRANSICIONES MOBILE---------*//*
 nav ul li:hover{
     transform: scale(1.1);
 }
@@ -807,7 +808,7 @@ nav ul li:hover{
  }
 }
 
-/*-----------ANIMACIONES, TRANSFORMACIONES, TRANSICIONES---------*/
+/*-----------ANIMACIONES, TRANSFORMACIONES, TRANSICIONES---------*//*
 
 nav ul li:hover{
 transform: scale(1.1);
@@ -859,7 +860,108 @@ transform: translate(0px,15px)
 .destacado2:hover{
 transform: translate(0px,15px)
 }
- 
+*/
+
+/*---------BOOTSTRAP-------*/
+body{
+    font-family:'Montserrat', sans-serif; 
+    overflow-x: hidden;
+    font-weight: 900;
+    background-color: grey;
+}
+header{
+    color: #ffff; 
+}
+header h1{
+    font-size: 50px;
+}
+header h2{
+    font-size: 15px;
+}
+.navbar{
+    background-color: rgb(57, 47, 66) !important;
+
+}
+.card-body{
+    background-image: linear-gradient(
+        0deg,
+    rgba(0, 0, 0, 0.527) ,
+    rgba(0, 0, 0, 0.527) ),;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card{
+    max-width: 1400px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+main h2{
+    color: #ffff
+}
+#tituloFabricacion{
+    color: #ffff;
+    font-size: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.mediosDePago ul li{
+    background-color: rgba(109, 111, 112, 0.089);
+    color: #ffff;
+}
+footer{
+    background-color: black;
+    min-height: 100px;
+}
+footer p{
+    color: #ffff;
+    text-align: center;
+}
+#iconosRedes{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #ffff;
+}
+#contenedorCartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#imgProductos{
+    display: flex;
+    justify-content: center;
+}
+aside h2{
+    color: #ffff;
+}
+.form2{
+    border-radius: 5px;
+}
+@media (max-width:768px){
+    #envios #medios {
+        width: 90% !important;
+    }
+    .productosCard{
+        width: 100% !important;
+    }
+    #contenedorCartas{
+        flex-direction: column;
+    }
+    .card{
+        width: 90% !important;
+    }
+    #historia{
+        width: 90% !important;
+    }
+}
+
 
 
 
