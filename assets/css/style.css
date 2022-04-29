@@ -882,6 +882,7 @@ header h2{
     background-color: rgb(57, 47, 66) !important;
 
 }
+
 .card-body{
     background-image: linear-gradient(
         0deg,
@@ -913,9 +914,10 @@ main h2{
     justify-content: center;
 }
 .mediosDePago ul li{
-    background-color: rgba(109, 111, 112, 0.089);
+    background-color: rgba(255, 255, 255, 0);
     color: #ffff;
 }
+
 footer{
     background-color: black;
     min-height: 100px;
@@ -929,6 +931,7 @@ footer p{
     padding: 0 8px;
     color: #ffff;
 }
+
 #contenedorCartas{
     display: flex;
     flex-wrap: wrap;
@@ -944,7 +947,7 @@ aside h2{
 .form2{
     border-radius: 5px;
 }
-@media (max-width:768px){
+@media (max-width:576px){
     #envios #medios {
         width: 90% !important;
     }
@@ -960,8 +963,127 @@ aside h2{
     #historia{
         width: 90% !important;
     }
+    footer{
+        font-size: 10px
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .card:hover{
+        transform: translate(0px,10px);
+     }
+     aside{
+         flex-direction: column;
+     }
 }
 
+@media  (max-width:768px) {
+    .card{
+        width:75% !important;
+    }
+    #tituloFabricacion{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    aside{
+        flex-direction: column;
+    }
+ 
+}
+
+@media  (min-width:1200px) {
+    .contenedorTarjetas{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card{
+        width:  35% !important;
+        padding: 30px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(175, 168, 168);
+    }
+    .btn{
+        width: 100%;
+        background-color: blueviolet;
+        color: #ffff;
+        
+    }
+    #contenedorCartas{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+/*-----------ANIMACIONES, TRANSFORMACIONES, TRANSICIONES MOBILE---------*/
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+.form1:focus{
+    transform: scale(1.1);
+}
+.form2:focus{
+    transform: scale(1.1);
+}
+.enviardatos:hover{
+    transform: scale(1.1);
+}
+.btn-whatsapp:hover{
+    transform: scale(1.1);
+}
+.carta__boton:hover{
+    transform: scale(1.1);
+}
+
+.logo{
+    animation-name: logoanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 15px;
+}
+.enviosText{
+    animation-name: enviosanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes logoanim{
+    0%{
+        transform: 25px;
+    }
+    100%{
+        transform: 25px;
+       background-image: linear-gradient(to left, rgba(247, 76, 76, 0.445), rgba(223, 69, 69, 0.65));
+    }
+}
+@keyframes enviosanim{
+    0%{
+        transform: 25px;
+        border-radius: 10px;
+        border-color: black;
+    }
+    100%{
+        transform: 25px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        border-color: black;
+    }
+}
+.card:hover{
+    transform: translate(0px,10px);
+ }
+
+ .form-control:focus{
+    transform: scale(1.05);
+ }
 
 
 

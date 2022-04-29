@@ -35,141 +35,53 @@
               </div>
             </div>
           </nav>
-        <!--
-            <nav class="navegador">  
-                <ul >
-                    <li> 
-                        <a href="../index.html" style="text-decoration: none">Inicio</a>
-                    </li>
-                    <li> 
-                        <a href="../pages/productos.html" style="text-decoration: none">Productos</a>
-                    </li>
-                    <li> 
-                        <a href="../pages/destacados.html" style="text-decoration: none">Destacados</a>
-                    </li>
-                    <li> 
-                        <a href="../pages/nosotros.html" style="text-decoration: none">Nosotros </a>
-                    </li>
-                    <li> 
-                        <a href="../pages/contactos.html" style="text-decoration: none">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        -->
-        <!-- VALE ACLARAR QUE ACA LAS IMAGENES VAN A CAMBIAR POR OTRAS-->
-       <!--
-        <h3 id="titleDestacados">Nuestros Productos Destacados</h3>
-        <main>
-            <section id="contenedorCartas">     
-                
-                <div class="destacado">
-                    <h4 class="destacado__titulo">Bajo Fender Jazz Bass</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quae.</p>
-                    <img class="destacado__img" src="../assets/css/imagenes/bajo electricojpg.jpg">
-                    <button class="destacado__boton">+ Info</button>
-                </div>
 
-                <div class="destacado">
-                    <h4 class="destacado__titulo">Guitarra Fender Stratocaster</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quae.</p>
-                    <img class="destacado__img" src="../assets/css/imagenes/guitarra.jpg">
-                    <button class="destacado__boton">+ Info</button>
-                </div>
-
-                <div class="destacado">
-                    <h4 class="destacado__titulo">Platillos Zildjian </h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quae.</p>
-                    <img class="destacado__img" src="../assets/css/imagenes/bateria.jpg">
-                    <button class="destacado__boton">+ Info</button>
-                </div>
-
-                <div class="destacado">
-                    <h4 class="destacado__titulo">Guitarras acusticas</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quae.</p>
-                    <img class="destacado__img" src="../assets/css/imagenes/acusticosjpg.jpg">
-                    <button class="destacado__boton">+ Info</button>
-                </div>
-            </section>   
-        </main> 
-        <aside>    
-            <h3 id="titleDestacados"><i> Los Mas Vendidos!!</i></h3>
+        <main class="container-fluid ">
+            <h2 class="d-flex justify-content-center mx-auto">Nuestros Productos Destacados</h2>
             <section id="contenedorCartas">
-                    <div class="destacado2">
-                        <h4 class="destacado__titulo">Bajo Electrico Texas Jazz Bass </h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quae.</p>
-                        <img class="destacado__img" src="../assets/css/imagenes/bateria.jpg">
-                        <button class="destacado__boton">Lo Quiero!</button>
+                
+                <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
+                    <img  id="imgProductos" src="../assets/css/imagenes/bajo electricojpg.jpg" class="card-img-top" alt="guitarra">
+                    <div class="card-body d-flex align-itmes-center text-center">
+                    <h5 class="card-title ">Bajo Fender Jazz Bass</h5>
+                    <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
                     </div>
+                </div>
+                <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
+                    <img  id="imgProductos" src="../assets/css/imagenes/guitarra.jpg" class="card-img-top" alt="guitarra">
+                    <div class="card-body d-flex align-itmes-center text-center">
+                    <h5 class="card-title ">Guitarra Fender Stratocaster</h5>
+                    <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
+                    </div>
+                </div>
+                <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
+                    <img  id="imgProductos" src="../assets/css/imagenes/bateria.jpg" class="card-img-top" alt="guitarra">
+                    <div class="card-body d-flex align-itmes-center text-center">
+                    <h5 class="card-title ">Platillos Zildjian </h5>
+                    <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
+                    </div>
+                </div>
+            </section>
+        </main>  
+        
+        <aside class="container-fluid d-flex align-items-center">
+                <h2 class="d-flex justify-content-center mx-auto">Los Mas Vendidos!</h2>
+                <div class="card w-25 mx-auto  d-flex justify-content-center" style="width: 18rem;">
+                    <img  id="imgProductos" src="../assets/css/imagenes/bajo electricojpg.jpg" class="card-img-top" alt="guitarra">
+                    <div class="card-body d-flex align-itmes-center text-center">
+                    <h5 class="card-title ">Bajo Electrico Texas Jazz Bass</h5>
+                    <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
+                    </div>
+                </div>
+                <div class="card w-25 mx-auto d-flex justify-content-center" style="width: 18rem;">
+                    <img  id="imgProductos" src="../assets/css/imagenes/guitarra.jpg" class="card-img-top" alt="guitarra">
+                    <div class="card-body d-flex align-itmes-center text-center">
+                    <h5 class="card-title ">Guitarra Fain SG</h5>
+                    <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
+                    </div>
+                </div>
+        </aside>
 
-                    <div class="destacado2">
-                        <h4 class="destacado__titulo">Guitarra Fain SG</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quae.</p>
-                        <img class="destacado__img" src="../assets/css/imagenes/bajo electricojpg.jpg">
-                        <button class="destacado__boton">Lo Quiero!</button>
-                    </div>
-                </section>
-        </aside> 
-    -->       
-    <main class="container-fluid ">
-        <h2 class="d-flex justify-content-center mx-auto">Nuestros Productos Destacados</h2>
-        <section id="contenedorCartas">
-            
-            <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
-                <img  id="imgProductos" src="../assets/css/imagenes/bajo electricojpg.jpg" class="card-img-top" alt="guitarra">
-                <div class="card-body d-flex align-itmes-center text-center">
-                <h5 class="card-title ">Bajo Fender Jazz Bass</h5>
-                <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
-                </div>
-            </div>
-            <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
-                <img  id="imgProductos" src="../assets/css/imagenes/guitarra.jpg" class="card-img-top" alt="guitarra">
-                <div class="card-body d-flex align-itmes-center text-center">
-                <h5 class="card-title ">Guitarra Fender Stratocaster</h5>
-                <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
-                </div>
-            </div>
-            <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
-                <img  id="imgProductos" src="../assets/css/imagenes/bateria.jpg" class="card-img-top" alt="guitarra">
-                <div class="card-body d-flex align-itmes-center text-center">
-                <h5 class="card-title ">Platillos Zildjian </h5>
-                <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
-                </div>
-            </div>
-        </section>
-    </main>  
-    
-    <aside class="container-fluid d-flex align-items-center">
-            <h2 class="d-flex justify-content-center mx-auto">Los Mas Vendidos!</h2>
-            <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
-                <img  id="imgProductos" src="../assets/css/imagenes/bajo electricojpg.jpg" class="card-img-top" alt="guitarra">
-                <div class="card-body d-flex align-itmes-center text-center">
-                <h5 class="card-title ">Bajo Electrico Texas Jazz Bass</h5>
-                <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
-                </div>
-            </div>
-            <div class="card w-25 mx-auto my-10px d-flex justify-content-center" style="width: 18rem;">
-                <img  id="imgProductos" src="../assets/css/imagenes/guitarra.jpg" class="card-img-top" alt="guitarra">
-                <div class="card-body d-flex align-itmes-center text-center">
-                <h5 class="card-title ">Guitarra Fain SG</h5>
-                <a href="./pages/productos.html" class="btn btn-secondary">Lo Quiero!</a>
-                </div>
-            </div>
-    </aside>
-            <!--comienzo del Footer
-        <footer class="pie">
-            <p>Buscanos en nuestras redes</p>
-                <div class="redes">
-                    <a href="https://twitter.com/" target="_blanck">
-                        <img class="redes__1" src="../assets/css/imagenes/gorjeo.png">
-                    </a>        
-                    <a href="https://www.instagram.com/" target="_blanck">
-                        <img class="redes__1" src="../assets/css/imagenes/instagram.png">
-                    </a>
-                    <a href="https://es-la.facebook.com/" target="_blanck">
-                        <img class="redes__1" src="../assets/css/imagenes/facebook.png">
-                    </a>
-                </div>
-        </footer> -->
         <footer class="w-100 d-flex align-items-center justify-content-between mt-5">
             <p class="fs-5 px-5 pt-3">Buscanos en nuestras redes</p>
             <div id="iconosRedes">
