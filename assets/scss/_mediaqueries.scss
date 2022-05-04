@@ -1,0 +1,175 @@
+@media (max-width:576px){
+    #envios #medios {
+        width: 90% !important;
+    }
+    .productosCard{
+        width: 100% !important;
+    }
+    #contenedorCartas{
+        flex-direction: column;
+        .card{
+            display:flex;
+            align-items: center;
+            .card-body{
+                width: 100%;
+            }
+        }
+    }
+    #contenedorMasVendidos{
+        flex-direction: column;
+        .card-body{
+            background-color: black;
+        }
+    }
+    .card{
+        width: 90% !important;
+        &:hover{
+            transform: translate(0px,10px);
+            }
+        .card-body{
+            background-color: #a21a598a;
+            color:$colorTitulo
+        }
+        .btn{
+            background-color: $colorTitulo;
+            color: $colorSecundario;
+            font-weight: bold;
+        }
+    }
+    #historia{
+        width: 90% !important;
+    }
+    footer{
+        font-size: 10px
+        }
+        p{
+            font-size: 10px;
+        }
+        .tituloFooter{
+            font-size: 15px !important;
+        }
+    }
+     aside{
+         flex-direction: column;
+     }
+     #formulario{
+        h2{
+            font-weight: bold;
+        }
+    }
+     .btn-form{
+        background-color:$colorSecundario;
+        color: $colorTitulo;
+        font-weight: bold;
+    }
+
+@media  (min-width:768px) {
+    .card{
+        width:75% !important;
+        .card-body{
+            background-color: #a21a598a;
+            color:$colorTitulo
+        }
+        .btn{
+            background-color: $colorTitulo;
+            color: $colorSecundario;
+            font-weight: bold;
+        }
+    }
+    #contenedorMasVendidos{
+        flex-direction: column;
+        .card-body{
+            background-color: black;
+        }
+    }
+    #tituloFabricacion{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        #iconosRedes{
+            display: flex;
+            align-items: center;
+        }
+    }
+    aside{
+        flex-direction: column;
+    }
+    #formulario{
+        h2{
+            font-weight: bold;
+        }
+    }
+    .btn-form{
+        background-color:$colorSecundario;
+        color: $colorTitulo;
+        font-weight: bold;
+    }
+ 
+}
+
+@media  (min-width:1200px) {
+    .contenedorTarjetas{
+        
+        display: flex;
+        justify-content: space-around;
+    
+        .card-body{
+            background: none !important;    
+        }
+        .btn{
+            background-color: $colorSecundario;
+            color: $colorTitulo;
+            font-weight: bold;
+            
+        }
+    }
+    #contenedorCartas{
+        display: flex;
+        justify-content: space-around;
+        .card-body{
+            background: none;
+        }
+        .card-title{
+            font-weight: bold;
+        }
+    }
+    .card{
+        width:  35% !important;
+        padding: 30px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(175, 168, 168);
+    }
+
+    #contenedorCartas{
+        display: flex;
+        justify-content: space-around;
+    }
+    #contenedorMasVendidos{
+        flex-direction: row;
+        .card{
+            background-color: $colorSecundario;
+            padding: 15px !important;
+        }
+        .card-body{
+            background: none;
+        }
+    }
+    #formulario{
+        h2{
+            font-weight: bold;
+        }
+    }
+    .btn-form{
+        background-color:$colorSecundario;
+        color: $colorTitulo;
+        font-weight: bold;
+    }
+}

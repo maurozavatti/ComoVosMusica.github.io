@@ -1,0 +1,16 @@
+footer{
+    background-color: $fondoFooter;
+    min-height: 100px;
+    p{
+    color: $colorTitulo;
+    text-align: center;
+    }
+    #iconosRedes{
+    font-size: 26px;
+    padding: 0 8px;
+    color: $colorTitulo;
+    }
+    .bi{
+        color: $colorSecundario;
+    }
+}
