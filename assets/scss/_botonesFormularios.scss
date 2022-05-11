@@ -1,0 +1,10 @@
+.btn-form2{
+    background-color:$colorSecundario;
+    color: $colorTitulo;
+    font-weight: bold;
+}
+.btn-wts{
+    @extend .btn-form2;
+   background-color: #28D146;
+   border-radius: 35px;
+}

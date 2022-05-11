@@ -28,8 +28,6 @@ header h2 {
 }
 
 .contenedorTarjetas .card .card-body {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.527)));
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.527));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,9 +41,18 @@ header h2 {
   font-weight: bold;
 }
 
+#contenedorCartas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #contenedorCartas .card-body {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.527)));
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.527));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,17 +98,6 @@ main h2 {
 .mediosDePago ul li {
   background-color: rgba(255, 255, 255, 0);
   color: #ffff;
-}
-
-#contenedorCartas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 #imgProductos {
@@ -177,7 +173,7 @@ aside .enviosText {
             transform: translate(0px, 10px);
   }
   .card .card-body {
-    background-color: #a21a598a;
+    background-color: #A21A5A;
     color: #ffff;
   }
   .card .btn {
@@ -221,7 +217,7 @@ aside {
     width: 75% !important;
   }
   .card .card-body {
-    background-color: #a21a598a;
+    background-color: #A21A5A;
     color: #ffff;
   }
   .card .btn {
@@ -287,6 +283,13 @@ aside {
   }
   .contenedorTarjetas .card-body {
     background: none !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .contenedorTarjetas .btn {
     background-color: #A21A5A;
@@ -442,6 +445,17 @@ aside {
           transform: scale(1.05);
 }
 
+.btn-form2, .btn-wts {
+  background-color: #A21A5A;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.btn-wts {
+  background-color: #28D146;
+  border-radius: 35px;
+}
+
 footer {
   background-color: black;
   min-height: 100px;
@@ -455,7 +469,7 @@ footer p {
 footer #iconosRedes {
   font-size: 26px;
   padding: 0 8px;
-  color: #ffff;
+  color: #A21A5A;
 }
 
 footer .bi {

@@ -27,7 +27,7 @@
             transform: translate(0px,10px);
             }
         .card-body{
-            background-color: #a21a598a;
+            background-color: $colorSecundario;
             color:$colorTitulo
         }
         .btn{
@@ -57,7 +57,7 @@
             font-weight: bold;
         }
     }
-     .btn-form{
+    .btn-form{
         background-color:$colorSecundario;
         color: $colorTitulo;
         font-weight: bold;
@@ -67,7 +67,7 @@
     .card{
         width:75% !important;
         .card-body{
-            background-color: #a21a598a;
+            background-color: $colorSecundario;
             color:$colorTitulo
         }
         .btn{
@@ -118,7 +118,8 @@
         justify-content: space-around;
     
         .card-body{
-            background: none !important;    
+            background: none !important;
+            @include propiedadesCardBody (flex, column)    
         }
         .btn{
             background-color: $colorSecundario;
@@ -172,4 +173,5 @@
         color: $colorTitulo;
         font-weight: bold;
     }
+
 }

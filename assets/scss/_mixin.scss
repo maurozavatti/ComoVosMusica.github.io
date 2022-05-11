@@ -1,0 +1,10 @@
+@mixin propiedadesCard ($mx, $marg, $padd){
+    max-width: $mx;
+    margin: $marg;
+    padding: $padd;
+}
+
+@mixin propiedadesCardBody ($dflex, $direcflex) {
+    display: $dflex;
+    flex-direction: $direcflex;
+}

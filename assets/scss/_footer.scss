@@ -6,9 +6,9 @@ footer{
     text-align: center;
     }
     #iconosRedes{
-    font-size: 26px;
-    padding: 0 8px;
-    color: $colorTitulo;
+    font-size: map-get($iconosRedes , fuente);
+    padding: map-get($iconosRedes, padd );
+    color: map-get($iconosRedes, colorFondo);
     }
     .bi{
         color: $colorSecundario;

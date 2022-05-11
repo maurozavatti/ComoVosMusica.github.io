@@ -1,38 +1,28 @@
 .contenedorTarjetas {
     
     .card{
-        max-width: 1400px;
-        margin: 20px;
-        padding: 20px;
+       @include propiedadesCard (1400px, 20px, 20px);
         .card-body{
-            background-image: linear-gradient(
-                0deg,
-            rgba(0, 0, 0, 0.527) ,
-            rgba(0, 0, 0, 0.527) ),;
-            display: flex;
-            flex-direction: column; 
+            @include propiedadesCardBody (flex, column);
             .card-title{
                 font-weight: bold;
             }  
         }
     }
 }
-#contenedorCartas{
+#contenedorCartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     .card-body{
-        background-image: linear-gradient(
-            0deg,
-        rgba(0, 0, 0, 0.527) ,
-        rgba(0, 0, 0, 0.527) ),;
-        display: flex;
-        flex-direction: column;
-        
+        @include propiedadesCardBody (flex, column);      
     }
     .card{
-        max-width: 1400px;
-        margin: 20px;
-        padding: 20px;
+        @include propiedadesCard (1400px, 20px, 20px);
     }
 }
+
 #contenedorMasVendidos{
     .card-body{
         flex-direction: column;
@@ -56,11 +46,7 @@ main h2{
     background-color: rgba(255, 255, 255, 0);
     color: $colorTitulo;
 }
-#contenedorCartas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 #imgProductos{
     display: flex;
     justify-content: center;
