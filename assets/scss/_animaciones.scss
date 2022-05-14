@@ -1,24 +1,9 @@
-
-.logo{
-    animation-name: logoanim;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    border-radius: 15px;
-}
 .enviosText{
     animation-name: enviosanim;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-@keyframes logoanim{
-    0%{
-        transform: 25px;
-    }
-    100%{
-        transform: 25px;
-       background-image: linear-gradient(to left, rgba(247, 76, 76, 0.445), rgba(223, 69, 69, 0.65));
-    }
-}
+
 @keyframes enviosanim{
     0%{
         transform: 25px;
@@ -33,9 +18,23 @@
     }
 }
 .card:hover{
-    transform: translate(0px,10px);
+    transform: translate(0px,10px) !important;
  }
 
  .form-control:focus{
+    transform: scale(1.05);
+ }
+ .btn-form2:hover{
+    transform: scale(1.05);
+ }
+ #iconosRedes a:hover{
+    transform: scale(1.1);
+ }
+
+ #contenedorCartas div a:hover{
+    transform: scale(1.05);
+ }
+
+ #contenedorMasVendidos div a:hover{
     transform: scale(1.05);
  }

@@ -173,7 +173,7 @@ aside .enviosText {
             transform: translate(0px, 10px);
   }
   .card .card-body {
-    background-color: #A21A5A;
+    background-color: #55515c;
     color: #ffff;
   }
   .card .btn {
@@ -212,12 +212,16 @@ aside {
   font-weight: bold;
 }
 
+.containerWts {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .card {
     width: 75% !important;
   }
   .card .card-body {
-    background-color: #A21A5A;
+    background-color: #6d6875;
     color: #ffff;
   }
   .card .btn {
@@ -295,6 +299,10 @@ aside {
     background-color: #A21A5A;
     color: #ffff;
     font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100px;
   }
   #contenedorCartas {
     display: -webkit-box;
@@ -358,16 +366,6 @@ aside {
   }
 }
 
-.logo {
-  -webkit-animation-name: logoanim;
-          animation-name: logoanim;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  border-radius: 15px;
-}
-
 .enviosText {
   -webkit-animation-name: enviosanim;
           animation-name: enviosanim;
@@ -375,32 +373,6 @@ aside {
           animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes logoanim {
-  0% {
-    -webkit-transform: 25px;
-            transform: 25px;
-  }
-  100% {
-    -webkit-transform: 25px;
-            transform: 25px;
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(247, 76, 76, 0.445)), to(rgba(223, 69, 69, 0.65)));
-    background-image: linear-gradient(to left, rgba(247, 76, 76, 0.445), rgba(223, 69, 69, 0.65));
-  }
-}
-
-@keyframes logoanim {
-  0% {
-    -webkit-transform: 25px;
-            transform: 25px;
-  }
-  100% {
-    -webkit-transform: 25px;
-            transform: 25px;
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(247, 76, 76, 0.445)), to(rgba(223, 69, 69, 0.65)));
-    background-image: linear-gradient(to left, rgba(247, 76, 76, 0.445), rgba(223, 69, 69, 0.65));
-  }
 }
 
 @-webkit-keyframes enviosanim {
@@ -436,11 +408,31 @@ aside {
 }
 
 .card:hover {
-  -webkit-transform: translate(0px, 10px);
-          transform: translate(0px, 10px);
+  -webkit-transform: translate(0px, 10px) !important;
+          transform: translate(0px, 10px) !important;
 }
 
 .form-control:focus {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.btn-form2:hover, .btn-wts:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#iconosRedes a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#contenedorCartas div a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#contenedorMasVendidos div a:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
@@ -454,6 +446,11 @@ aside {
 .btn-wts {
   background-color: #28D146;
   border-radius: 35px;
+}
+
+.containerWts {
+  width: 200px;
+  margin-left: 91%;
 }
 
 footer {

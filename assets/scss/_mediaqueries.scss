@@ -27,7 +27,7 @@
             transform: translate(0px,10px);
             }
         .card-body{
-            background-color: $colorSecundario;
+            background-color: #55515c;
             color:$colorTitulo
         }
         .btn{
@@ -62,12 +62,17 @@
         color: $colorTitulo;
         font-weight: bold;
     }
+    .containerWts{
+        display: none;
+    }
+    
+    
 
 @media  (min-width:768px) {
     .card{
         width:75% !important;
         .card-body{
-            background-color: $colorSecundario;
+            background-color: #6d6875;
             color:$colorTitulo
         }
         .btn{
@@ -125,7 +130,8 @@
             background-color: $colorSecundario;
             color: $colorTitulo;
             font-weight: bold;
-            
+            display: flex;
+            width: 100px;
         }
     }
     #contenedorCartas{

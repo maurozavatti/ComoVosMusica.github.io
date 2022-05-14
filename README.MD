@@ -15,3 +15,5 @@ Agregue meta=description en cada una de la paginas
 Corregi los "alt" de las imagenes
 
 Agregue sitemap.xml
+
+Agregue plugin de animated.css
