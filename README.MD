@@ -17,3 +17,5 @@ Corregi los "alt" de las imagenes
 Agregue sitemap.xml
 
 Agregue plugin de animated.css
+
+Agregue googlemaps a contactos

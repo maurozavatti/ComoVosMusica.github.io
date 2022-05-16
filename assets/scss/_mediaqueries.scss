@@ -35,6 +35,20 @@
             color: $colorSecundario;
             font-weight: bold;
         }
+        p{
+            color:$colorTitulo !important;
+        }
+    }
+    #tituloFabricacion{
+        font-size: 17px;
+    }
+    .contenedorMapa {
+        iframe{
+            width: 500px;
+        }
+        h4{
+            font-size: 15px !important;
+        }
     }
     #historia{
         width: 90% !important;
@@ -47,6 +61,10 @@
         }
         .tituloFooter{
             font-size: 15px !important;
+        }
+        #iconosRedes{
+            display: flex;
+            align-items: center;
         }
     }
      aside{
@@ -80,9 +98,15 @@
             color: $colorSecundario;
             font-weight: bold;
         }
+        p{
+            color:$colorTitulo !important;
+        }
     }
     #contenedorMasVendidos{
         flex-direction: column;
+        .card{
+            margin:10px;
+        }
         .card-body{
             background-color: black;
         }
@@ -131,14 +155,17 @@
             color: $colorTitulo;
             font-weight: bold;
             display: flex;
+            justify-content: center;
             width: 100px;
         }
+      
     }
     #contenedorCartas{
         display: flex;
         justify-content: space-around;
         .card-body{
             background: none;
+
         }
         .card-title{
             font-weight: bold;
@@ -153,6 +180,7 @@
         align-items: center;
         flex-direction: column;
         background-color: rgb(175, 168, 168);
+
     }
 
     #contenedorCartas{
