@@ -19,3 +19,5 @@ Agregue sitemap.xml
 Agregue plugin de animated.css
 
 Agregue googlemaps a contactos
+
+Falta crear historia para seccion "nosotros"
