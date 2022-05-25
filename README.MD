@@ -20,4 +20,8 @@ Agregue plugin de animated.css
 
 Agregue googlemaps a contactos
 
-Falta crear historia para seccion "nosotros"
+Agregue nuevas imagenes para las tarjetas
+
+Agregue nueva mediaquerie 320px
+
+Corregi footer para mobile
