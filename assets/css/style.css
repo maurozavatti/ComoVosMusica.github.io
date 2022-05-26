@@ -135,10 +135,7 @@ aside .enviosText {
 
 @media (max-width: 320px) {
   header div h1 {
-    font-size: 25px !important;
-  }
-  header div h2 {
-    font-size: 30px !important;
+    font-size: 27px !important;
   }
   main h2 {
     font-size: 20px !important;
@@ -339,6 +336,10 @@ aside {
   }
   footer {
     font-size: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   p {
     font-size: 10px;
@@ -353,6 +354,9 @@ aside {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
   }
 }
 
@@ -427,41 +431,46 @@ aside {
     margin-bottom: 15px;
   }
   footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  footer #iconosRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  aside {
+    font-size: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #formulario h2 {
-    font-weight: bold;
+  p {
+    font-size: 10px;
   }
-  .btn-form {
-    background-color: #A21A5A;
-    color: #ffff;
-    font-weight: bold;
+  .tituloFooter {
+    font-size: 15px !important;
   }
-  .bodyNosotros {
-    background-image: none;
+  #iconosRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
   }
+}
+
+aside {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#formulario h2 {
+  font-weight: bold;
+}
+
+.btn-form {
+  background-color: #A21A5A;
+  color: #ffff;
+  font-weight: bold;
 }
 
 @media (min-width: 1200px) {
@@ -554,8 +563,20 @@ aside {
     color: #ffff;
     font-weight: bold;
   }
-  .bodyNosotros {
-    background-image: none;
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer .tituloFooter {
+    font-size: 20px !important;
   }
 }
 

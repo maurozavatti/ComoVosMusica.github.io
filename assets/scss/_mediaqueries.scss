@@ -1,12 +1,10 @@
 @media (max-width:320px){
     header{
         div h1{
-            font-size: 25px !important;
-        }
-        div h2{
-            font-size: 30px !important;
+            font-size: 27px !important;
         }
     }
+
     main{
         h2{
             font-size: 20px !important;
@@ -187,7 +185,8 @@
         width: 90% !important;
     }
     footer{
-        font-size: 10px
+        font-size: 10px;
+        flex-direction: column;
         }
         p{
             font-size: 10px;
@@ -198,6 +197,7 @@
         #iconosRedes{
             display: flex;
             align-items: center;
+            justify-content: space-between !important;
         }
     }
      aside{
@@ -273,12 +273,19 @@
         margin-bottom: 15px;
     }
     footer{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        font-size: 10px;
+        flex-direction: column;
+        }
+        p{
+            font-size: 10px;
+        }
+        .tituloFooter{
+            font-size: 15px !important;
+        }
         #iconosRedes{
             display: flex;
             align-items: center;
+            justify-content: space-between !important;
         }
     }
     aside{
@@ -294,10 +301,8 @@
         color: $colorTitulo;
         font-weight: bold;
     }
-    .bodyNosotros{
-        background-image: none;
-    }
-}
+ 
+
 
 @media  (min-width:1200px) {
     .contenedorTarjetas{
@@ -366,7 +371,14 @@
         color: $colorTitulo;
         font-weight: bold;
     }
-    .bodyNosotros{
-        background-image: none;
+    footer{
+        display: flex;
+        flex-direction: row;
+        p{
+            font-size: 15px;
+        }
+        .tituloFooter{
+            font-size: 20px !important;
+        }
     }
 }
