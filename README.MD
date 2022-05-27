@@ -25,3 +25,7 @@ Agregue nuevas imagenes para las tarjetas
 Agregue nueva mediaquerie 320px
 
 Corregi footer para mobile
+
+Agregue icono pestañas
+
+Corregi mediaquieries 320px mobile

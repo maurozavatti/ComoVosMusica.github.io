@@ -1,8 +1,16 @@
 @media (max-width:320px){
-    header{
-        div h1{
-            font-size: 27px !important;
-        }
+    header .contenedor{
+            .tituloLogo{
+            width: 100%;
+            margin: 0;
+            font-size: 35px;
+            color: $colorSecundario;
+            font-weight: bold;
+            text-align: center;
+            }
+}
+    header .contenedor .subititulo{
+        display: none;
     }
 
     main{
@@ -34,6 +42,9 @@
             align-items: center;
             .card-body{
                 width: 100%;
+                p{
+                    font-size: 10px;
+                }
             }
         }
     }
@@ -67,6 +78,7 @@
     .contenedorMapa {
         iframe{
             width: 300px !important;
+            height: 200px;
         }
         h4{
             font-size: 15px !important;
@@ -312,7 +324,10 @@
     
         .card-body{
             background: none !important;
-            @include propiedadesCardBody (flex, column)    
+            @include propiedadesCardBody (flex, column);
+            p{
+                font-size: 15px;
+            }    
         }
         .btn{
             background-color: $colorSecundario;
@@ -329,7 +344,9 @@
         justify-content: space-around;
         .card-body{
             background: none;
-
+            p{
+                font-size: 15px;
+            }
         }
         .card-title{
             font-weight: bold;

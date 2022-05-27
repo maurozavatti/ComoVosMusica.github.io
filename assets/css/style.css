@@ -7,14 +7,11 @@ body {
 
 header {
   color: #ffff;
-}
-
-header h1 {
-  font-size: 50px;
-}
-
-header h2 {
-  font-size: 15px;
+  /* h1{
+    font-size: 50px;
+    }
+    h2{
+    font-size: 15px;*/
 }
 
 .navbar {
@@ -134,8 +131,16 @@ aside .enviosText {
 }
 
 @media (max-width: 320px) {
-  header div h1 {
-    font-size: 27px !important;
+  header .contenedor .tituloLogo {
+    width: 100%;
+    margin: 0;
+    font-size: 35px;
+    color: #A21A5A;
+    font-weight: bold;
+    text-align: center;
+  }
+  header .contenedor .subititulo {
+    display: none;
   }
   main h2 {
     font-size: 20px !important;
@@ -170,6 +175,9 @@ aside .enviosText {
   #contenedorCartas .card .card-body {
     width: 100%;
   }
+  #contenedorCartas .card .card-body p {
+    font-size: 10px;
+  }
   #contenedorMasVendidos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -203,6 +211,7 @@ aside .enviosText {
   }
   .contenedorMapa iframe {
     width: 300px !important;
+    height: 200px;
   }
   .contenedorMapa h4 {
     font-size: 15px !important;
@@ -491,6 +500,9 @@ aside {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contenedorTarjetas .card-body p {
+    font-size: 15px;
+  }
   .contenedorTarjetas .btn {
     background-color: #A21A5A;
     color: #ffff;
@@ -512,6 +524,9 @@ aside {
   }
   #contenedorCartas .card-body {
     background: none;
+  }
+  #contenedorCartas .card-body p {
+    font-size: 15px;
   }
   #contenedorCartas .card-title {
     font-weight: bold;
