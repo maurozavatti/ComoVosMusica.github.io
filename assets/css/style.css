@@ -130,7 +130,7 @@ aside .enviosText {
   font-weight: bold;
 }
 
-@media (max-width: 526px) {
+@media (max-width: 570px) {
   header .contenedor .tituloLogo {
     width: 100%;
     margin: 0;
