@@ -1,3 +1,121 @@
+@media (max-width:526px){
+    header .contenedor{
+            .tituloLogo{
+            width: 100%;
+            margin: 0;
+            font-size: 35px;
+            color: $colorSecundario;
+            font-weight: bold;
+            text-align: center;
+            }
+}
+    header .contenedor .subititulo{
+        display: none;
+    }
+
+    main{
+        h2{
+            font-size: 20px !important;
+        }
+    }
+    .navbar{
+        .navbar-brand{
+            font-size: 20px;
+        }
+        .nav-link{
+            font-size: 15px !important;
+            margin-left: 10px;
+        }
+        
+    }
+    
+    #envios #medios {
+        width: 90% !important;
+    }
+    .productosCard{
+        width: 100% !important;
+    }
+    #contenedorCartas{
+        flex-direction: column;
+        .card{
+            display:flex;
+            align-items: center;
+            .card-body{
+                width: 100%;
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #contenedorMasVendidos{
+        flex-direction: column;
+        .card-body{
+            background-color: black;
+        }
+    }
+    .card{
+        width: 90% !important;
+        &:hover{
+            transform: translate(0px,10px);
+            }
+        .card-body{
+            background-color: #55515c;
+            color:$colorTitulo
+        }
+        .btn{
+            background-color: $colorTitulo;
+            color: $colorSecundario;
+            font-weight: bold;
+        }
+        p{
+            color:$colorTitulo !important;
+        }
+    }
+    #tituloFabricacion{
+        font-size: 17px;
+    }
+    .contenedorMapa {
+        iframe{
+            width: 300px !important;
+            height: 200px;
+        }
+        h4{
+            font-size: 15px !important;
+        }
+    }
+    #historia{
+        width: 90% !important;
+    }
+    footer{
+        font-size: 10px;
+        flex-direction: column;
+        }
+        p{
+            font-size: 10px;
+        }
+        .tituloFooter{
+            font-size: 15px !important;
+        }
+        #iconosRedes{
+            display: flex;
+            align-items: center;
+            justify-content: space-between !important;
+        }
+    }
+     aside{
+         flex-direction: column;
+     }
+     #formulario{
+        h2{
+            font-weight: bold;
+        }
+    }
+    .btn-form{
+        background-color:$colorSecundario;
+        color: $colorTitulo;
+        font-weight: bold;
+    }
 @media (max-width:570px){
     header .contenedor{
             .tituloLogo{
