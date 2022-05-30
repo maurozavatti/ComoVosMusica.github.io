@@ -86,7 +86,11 @@
     }
     #historia{
         width: 90% !important;
+        .parrafoHistoria{
+            font-size: 20px !important;
+        }
     }
+
     footer{
         font-size: 10px;
         flex-direction: column;

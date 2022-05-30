@@ -219,6 +219,9 @@ aside .enviosText {
   #historia {
     width: 90% !important;
   }
+  #historia .parrafoHistoria {
+    font-size: 20px !important;
+  }
   footer {
     font-size: 10px;
     -webkit-box-orient: vertical;
